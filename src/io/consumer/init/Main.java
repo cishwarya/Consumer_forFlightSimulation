@@ -10,6 +10,6 @@ public class Main {
       RestTemplate restTemplate = new RestTemplate();
       FlightLog flightLog = restTemplate.getForObject("http://localhost:8080/get/0.02/", FlightLog.class);
       
-      System.out.println("Result is : "+flightLog.getPm_dGroundSpeed());
+      System.out.println("Result is : : "+flightLog.getPm_dGroundSpeed());
   }
 }
