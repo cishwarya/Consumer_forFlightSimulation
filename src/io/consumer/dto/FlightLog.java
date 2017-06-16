@@ -1,4 +1,4 @@
-package io.producer.dto;
+package io.consumer.dto;
 
 /**
  * The Class FlightLog.
