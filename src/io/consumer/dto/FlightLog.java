@@ -94,6 +94,12 @@ public class FlightLog {
 		this.pm_dVerticalSpeed = pm_dVerticalSpeed;
 	}
 	
-	
-	
+	@Override
+	public String toString() {
+		return "FlightLog [sNo=" + sNo + ", pm_iAddrModeS=" + pm_iAddrModeS + ", pm_dLatitude=" + pm_dLatitude
+				+ ", pm_dLongitude=" + pm_dLongitude + ", pm_dAltitudeMSL=" + pm_dAltitudeMSL + ", pm_dRoll=" + pm_dRoll
+				+ ", pm_dPitch=" + pm_dPitch + ", pm_dHeading=" + pm_dHeading + ", pm_dGroundTrack=" + pm_dGroundTrack
+				+ ", pm_dAirSpeed=" + pm_dAirSpeed + ", pm_dGroundSpeed=" + pm_dGroundSpeed + ", pm_dVerticalSpeed="
+				+ pm_dVerticalSpeed + "]";
+	}
 }
